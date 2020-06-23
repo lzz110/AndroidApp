@@ -4,13 +4,10 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import com.microsoft.appcenter.appium.Factory;
-import com.microsoft.appcenter.appium.EnhancedAndroidDriver;
-import org.junit.rules.TestWatcher;
-import org.junit.Rule;
+
 
 public class AppTest {
-    private static EnhancedAndroidDriver<MobileElement> driver;
+
 
     private App app;
     @Before
@@ -36,11 +33,6 @@ public class AppTest {
     @After
     public void tearDown() throws Exception {
     }
-//    @After
-//    public void TearDown(){
-//        driver.label("Stopping App");
-//        driver.quit();
-//    }
-    @Rule
-    public TestWatcher watcher = Factory.createWatcher();
+
+
 }
