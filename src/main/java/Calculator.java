@@ -48,8 +48,8 @@ public class Calculator {
         capabilities.setCapability("appActivity", ".Calculator");
 
         AndroidDriver driver
-//                = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-                = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
+                = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+//                = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
 
         driver.findElement(By.name("1")).click();
         driver.findElement(By.name("5")).click();

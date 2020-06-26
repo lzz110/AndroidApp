@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab6df62c-55ce-498e-a354-613fcbefff1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculatorTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,14 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in mavenlearn">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator" />
-      <module name="mavenlearn" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="All in mavenlearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mavenlearn" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,10 +60,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mavenlearn" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="App2Test" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,13 +88,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="maven-learn [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in mavenlearn" />
-        <item itemvalue="JUnit.App2Test" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="Application.Calculator" />
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.CalculatorTest.testAdd" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="Maven.maven-learn [test]" />
+        <item itemvalue="JUnit.All in mavenlearn" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +138,7 @@
       <workItem from="1592879263323" duration="21620000" />
       <workItem from="1592964716816" duration="13250000" />
       <workItem from="1593050967355" duration="9188000" />
-      <workItem from="1593140515264" duration="178000" />
+      <workItem from="1593140515264" duration="993000" />
     </task>
     <servers />
   </component>
